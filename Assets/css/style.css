@@ -1,0 +1,17 @@
+  
+header { display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-style: italic;
+    background-color: rgb(60, 60, 60) }
+
+li { display: inline-block;
+    
+}
+
+a { color: rgb(213, 213, 193);}
+
+
+
+
+
