@@ -47,11 +47,20 @@ h1 {
 
 
   
-  
-  .container { display: flex;
-    text-align: justify;
-
+main { display: flex;
+   text-align: center;
+   background-image: image(flex-start);
+   
+      
   }
+
+
+  
+ 
+img {width: 450px;
+height: 300px;}
+ 
+
 
      
 
