@@ -47,9 +47,10 @@ h1 {
 
 
   
-main { display: flex;
+  
+  .container { display: flex;
    text-align: center;
-   background-image: image(flex-start);
+   
    
       
   }
