@@ -2,7 +2,7 @@
 
   
   body { 
-    background-color: rgb(154, 148, 139);
+    background-color: rgb(229, 229, 229);
     font-family: Arial;
     margin: 0;
     display: flex;
@@ -34,15 +34,22 @@ h1 {
       color: rgb(213, 213, 193);
       }
 
-      .container{ display: flex;
-        position: relative;
+article { display: flex;
+      
+       
       
   
 }
 
+img { width: 250px; border-style: solid;
+  
+ }
+
 
 p { 
- 
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(60, 60, 60) ;
+ font-style: italic;
 background-color:rgb(213, 213, 193);}
 
 
@@ -54,18 +61,16 @@ background-color:rgb(213, 213, 193);}
     margin-left: 10%;
   margin-right: 50px;}
 
-  p { font-family: Arial, Helvetica, sans-serif;
-  color:rgb(60, 60, 60) ;
- font-style: italic;
+  
 
+
+
+
+#Contact-Me a { 
+margin-right: 80px;
+     
 }
 
-
-
-
-#Contact-Me { 
-   justify-content: space-between;
-}
 
 
 
@@ -74,6 +79,7 @@ background-color:rgb(213, 213, 193);}
 
 .info { display: flex;
   align-items:center;
+
  
   }
 
