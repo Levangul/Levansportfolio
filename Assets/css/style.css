@@ -2,6 +2,7 @@
 
   
   body { 
+    background-color: rgb(154, 148, 139);
     font-family: Arial;
     margin: 0;
     display: flex;
@@ -33,13 +34,13 @@ h1 {
       color: rgb(213, 213, 193);
       }
 
-      .container{ position: relative;
-        display: flex;
+      .container{ display: flex;
+        position: relative;
+      
   
 }
-.hero { background-image: url("images/levan.jpg");}
 
-button {width: 50px;}
+
 p { 
  
 background-color:rgb(213, 213, 193);}
@@ -58,6 +59,8 @@ background-color:rgb(213, 213, 193);}
  font-style: italic;
 
 }
+
+
 
 
 #Contact-Me { 
