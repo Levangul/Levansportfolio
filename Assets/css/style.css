@@ -19,10 +19,7 @@ header {
     background-color: rgb(60, 60, 60); 
     color: rgb(60, 60, 60);
     }
-.hero { background-image: url(../images/levan.png);
-  height: 200px;
-  margin: 0;
-}    
+
 
 h1 { 
   background-color: rgb(213, 213, 193) ;
@@ -31,27 +28,34 @@ h1 {
    }
 
  nav a { 
-      display: inline-block;
-      padding-right: 50px;
-      padding-top: 35px;
+      display: inline-block; 
+      margin-right: 50px;
+      margin-top: 35px;
       color: rgb(213, 213, 193);
       }
+
+  nav a:hover {background-color: aliceblue;}
+  nav a:active { size: 20px;}
 
     
 
 img { width: 250px;
    border-style: solid;
-   display:block; 
+   
+
+
+ 
  }
-img:hover { background-color: beige;
+ 
+img:hover { color: aliceblue;
  
 }
 img:active {
   
   box-shadow: 0 0 10px #d3baba inset;
+
 }
-
-
+footer {text-align: center;}
 
 .container { position: relative;
 
@@ -59,10 +63,11 @@ img:active {
 
 .overlay-text { position: absolute;
  font-size: 17px;
- bottom: 1%;
+ top:1%;
   left: 1%;
   background-color: rgb(213, 213, 193);
   height: 30px;
+ 
 }
 
 p { 
@@ -87,7 +92,7 @@ h2 {
 
 
 #Contact-Me a { 
-margin-right: 80px;
+padding-right: 80px;
 background-color: rgb(213, 213, 193);
 
 
@@ -100,12 +105,12 @@ background-color: rgb(213, 213, 193);
   }
   .info a { border: 2px solid black;}
 
-@media screen and (max-width:842px) { 
-  header, main, .info, h2, p
-   {flex-direction: column;
-  justify-content: center;
-  border: none}
-}
+  @media screen and (max-width:842px) { 
+    header, main, .info, h2, p
+     {flex-direction: column;
+    align-items: center;
+    border: none;}
+  }
   
   
 
