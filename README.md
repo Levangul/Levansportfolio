@@ -2,16 +2,16 @@
 
 ## Description
 
-My first ever code written from scratch creating my own portfolio for future purposes. Working on this project helped me understand structure and functions of html and css better.
+My first ever code written from scratch creating my portfolio for future purposes. Working on this project helped me understand structure and functions of html and css better.
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
+![screenshot] (assets/images/screencapture-levangul-github-io-horiseon-code-refactor-2023-12-21-13_16_36.png)
+
+
 
 ## Credits
 
