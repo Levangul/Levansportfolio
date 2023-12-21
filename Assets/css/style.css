@@ -129,24 +129,28 @@ margin-right: 80px;
 
 footer {text-align: center;
 background-color:#13293d; 
-color:  rgb(229, 229, 229);
+
  }
 
+ footer p { color: rgb(229, 229, 229);}
      
 
 
 
-  @media screen and (max-width:1024px) { 
-  header, .info, img, .container, #Contact-Me a
+  @media screen and (max-width:962px) { 
+  header, .info,  .container
 
     /* directs items vertically from top to bottom*/
 
   {flex-direction: column;}
   h2 {border: none;
-  width:fit-content;}
+  width:fit-content;
+margin: auto;}
   nav a {margin-right: 25px;}
   h1 {padding-left: 0;}
-  #Contact-Me a { margin-right: 0;}
+  #Contact-Me a { margin:0;}
+  #About-Me p { width:auto}
+  
  
   
 
