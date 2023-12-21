@@ -137,7 +137,7 @@ background-color:#13293d;
 
 
 
-  @media screen and (max-width:962px) { 
+  @media screen and (max-width:1024px) { 
   header, .info,  .container
 
     /* directs items vertically from top to bottom*/
@@ -149,11 +149,7 @@ margin: auto;}
   nav a {margin-right: 25px;}
   h1 {padding-left: 0;}
   #Contact-Me a { margin:0;}
-  #About-Me p { width:auto}
-  
- 
-  
-
+  #About-Me p { width:auto;}
   
 }
  
