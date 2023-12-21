@@ -1,71 +1,97 @@
 
-
-  
-  body { 
-    display: flex;
-    flex-direction: column;
+body {
     background-color: rgb(229, 229, 229);
-    font-family: Arial;
-    margin: 0;
-   
-    
+    margin: 0;    
 
   }
 
 header { 
+  
+    /* enables flexbox layout mode */
+
     display: flex;
+
+    /* pushing included items to opposite edges  */
+
     justify-content: space-between;
-    font-style: italic;
-    background-color: rgb(60, 60, 60); 
-    color: rgb(60, 60, 60);
+
+    /* sets items in the center  */
+
+    align-items: center;
+    font-style:italic;
+    background-color:#13293d;  
     }
 
 
 h1 { 
-  background-color: rgb(213, 213, 193) ;
-  padding-left: 50px;
-  padding-right: 10px;
-   }
+  background-color: rgb(229, 229, 229); ;
+  padding-left: 40px;;
+ }
 
- nav a { 
-      display: inline-block; 
+nav a { 
+
+    /* adjusts the height and width of children within the element */
+
+      
       margin-right: 50px;
-      margin-top: 35px;
-      color: rgb(213, 213, 193);
+      color: rgb(229, 229, 229);
       }
 
-  nav a:hover {background-color: aliceblue;}
-  nav a:active { size: 20px;}
+nav a:hover {background-color: rgb(134, 136, 138);}
+nav a:active { box-shadow: 0 0 10px #d3baba inset;
+        size: 20px;}   
+      
+.hero { 
+        background-image: url(../images/science-lab-data-management.jpg);
+        margin: 0;
+        height: 150px;
+        width: 100%;
+        background-size:cover;
+        background-position:center;
+        position: relative;
+      
+}
+figure p {
+        position: absolute;
+        font-size: 17px;
+        bottom:15%;
+        right: 10%;
+        color: rgb(229, 229, 229);;
+        height: 30px;
 
-    
-
-img { width: 250px;
-   border-style: solid;
-   
-
-
+}
  
+
+img {
+  width: 250px;
+  border-style: solid;  
+
  }
- 
-img:hover { color: aliceblue;
- 
+  
+img:hover { 
+  box-shadow: 10px 10px 5px #888888;
+  background-color: rgb(134, 136, 138);
 }
 img:active {
   
   box-shadow: 0 0 10px #d3baba inset;
 
 }
-footer {text-align: center;}
 
-.container { position: relative;
+
+/* element is positioned as flow */
+
+.container { position:relative;
 
 }
 
-.overlay-text { position: absolute;
- font-size: 17px;
- top:1%;
+.overlay-text { 
+  /* takes out element from regular flow */
+  position: absolute;
+  font-size: 17px;
+  top:1%;
   left: 1%;
-  background-color: rgb(213, 213, 193);
+  color: rgb(229, 229, 229);;
   height: 30px;
  
 }
@@ -73,49 +99,63 @@ footer {text-align: center;}
 p { 
   font-family: Arial, Helvetica, sans-serif;
   color:rgb(60, 60, 60) ;
- font-style: italic;
-background-color:rgb(213, 213, 193);
-border: 2px solid black;
+  font-style:italic;
+  font-size: 20px;
+
+
 }
 
 
 h2 { 
   font-size: 40px;
   color: rgb(60, 60, 60) ;
-  border-right:  solid;
-    width: 10%;
-    margin-left: 10%;
-  margin-right: 50px;}
+  border-right: solid;
+  width: 10%;
+  margin-left: 100px;
+  margin-right: 100px;}
+
+  .info { display: flex;
+  align-items:center;
+    
+  }
 
   
-#About-Me p { width:800px}
+#About-Me p { width:500px}
 
 
 #Contact-Me a { 
-padding-right: 80px;
-background-color: rgb(213, 213, 193);
+margin-right: 80px;
+}
 
+footer {text-align: center;
+background-color:#13293d; 
+color:  rgb(229, 229, 229);
+ }
 
      
-} 
 
-.info { display: flex;
-  align-items:center;
 
-  }
-  .info a { border: 2px solid black;}
 
-  @media screen and (max-width:842px) { 
-    header, main, .info, h2, p
-     {flex-direction: column;
-    align-items: center;
-    border: none;}
-  }
+  @media screen and (max-width:1024px) { 
+  header, .info, img, .container, Contact-Me p
+
+    /* directs items vertically from top to bottom*/
+
+  {flex-direction: column;}
+  h2 {border: none;
+  width:fit-content;}
+  nav a {margin-right: 25px;}
+  h1 {padding-left: 0;}
+ 
   
-  
-
 
   
+}
+ 
+    
+  
+  
+ 
 
 
 
